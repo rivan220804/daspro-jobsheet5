@@ -10,14 +10,15 @@ public class PemilihanHariDenganIf23 {
         System.out.print("Masukkan angka (1-7): ");
         int angka = sc.nextInt();
 
-        if (angka >= 1 && angka <=5) {
-            System.out.println("Weekday"); 
-        } else if (angka == 6 || angka == 7); {
-            System.out.println("weekend");
-        } {
+        if (angka >= 1 && angka <= 5) {
+            System.out.println("Weekday");
+        } else if (angka == 6 || angka == 7) {
+            System.out.println("Weekend");
+        } else {
             System.out.println("Invalid Number");
         }
-        sc.close();
+
+
     }
 }
 
