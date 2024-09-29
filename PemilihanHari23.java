@@ -29,6 +29,7 @@ public class PemilihanHari23 {
         }
         
         System.out.println(dayName + "is a" + dayType);
-
+        
+        
     }
 }
